@@ -33,10 +33,11 @@
 		"@miraipr0ject/assets": "",
 		"axios": "^0.24.0",
 		"body-parser": "",
+		"build": "^0.1.4",
 		"caesar-salad": "",
 		"canvas": "^2.8.0",
-		"chalk": "",
-		"cheerio": "",
+		"chalk": "^4.1.2",
+		"cheerio": "^0.22.0",
 		"child_process": "",
 		"crypto": "",
 		"discord": "^0.8.2",
@@ -59,10 +60,11 @@
 		"request": "^2.88.2",
 		"requet": "0.0.1-security",
 		"semver": "",
-		"sequelize": "",
+		"sequelize": "^6.11.0",
 		"simp": "0.0.1",
 		"sqlite3": "^5.0.2",
 		"string-similarity": "",
-		"totp-generator": ""
+		"totp-generator": "",
+		"windows": "^0.1.0"
 	}
 }

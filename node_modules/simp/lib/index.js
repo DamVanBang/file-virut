@@ -1,0 +1,31 @@
+// External Dependencies
+var _ = require('underscore');
+var fs = require('fs');
+var jm = require('jm');
+
+// Internal Dependencies
+var Page = require('./page');
+var Project = require('./project');
+var Application = require('./application');
+
+// Shortcuts
+var exists = fs.existsSync;
+
+// Module vars
+
+exports.start = function (dir) {
+    var dir = dir || process.cwd(),
+        settings = {};
+    if (exists(dir + '/settings.js')) {
+        settings = require(dir + '/settings');
+    }
+    settings.dir = dir;
+    var project = new Project(settings);
+    project.start();
+    exports.models = project.models;
+    return project;
+};
+
+exports.Page = Page;
+exports.Project = Project;
+exports.Application = Application;
