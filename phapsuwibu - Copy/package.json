@@ -1,0 +1,68 @@
+{
+	"name": "MiraiBypass",
+	"version": "1.2.18",
+	"description": "Bẻ khoá và bổ sung bởi Mai Huy Bảo",
+	"main": "mirai.js",
+	"scripts": {
+		"start": "node index",
+		"login": "node login",
+		"test": "node --trace-warnings --use_strict --async-stack-traces mirai"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/maihuybao/MiraiBypassGban.git"
+	},
+	"keywords": [
+		"bot",
+		"facebook",
+		"projectmirai",
+		"messenger",
+		"mirai",
+		"catalizcs",
+		"spermlord",
+		"miraipr0ject"
+	],
+	"author": "MaiHuyBao",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/maihuybao/MiraiBypassGban/issue"
+	},
+	"homepage": "https://github.com/maihuybao/MiraiBypassGban#readme",
+	"dependencies": {
+		"@maihuybao/fca-unofficial": "",
+		"@miraipr0ject/assets": "",
+		"axios": "^0.24.0",
+		"body-parser": "",
+		"caesar-salad": "",
+		"canvas": "^2.8.0",
+		"chalk": "",
+		"cheerio": "",
+		"child_process": "",
+		"crypto": "",
+		"discord": "^0.8.2",
+		"discord.js": "^13.3.1",
+		"eval": "",
+		"extract-zip": "",
+		"facebook-chat-api-v2": "^1.3.21",
+		"figlet": "",
+		"fs-extra": "^10.0.0",
+		"install": "^0.13.0",
+		"jimp": "",
+		"minimist": "^1.2.5",
+		"moment-timezone": "",
+		"ms": "",
+		"node": "^13.14.0",
+		"nodejs-base64": "",
+		"npmlog": "",
+		"path": "^0.12.7",
+		"readline": "",
+		"request": "^2.88.2",
+		"requet": "0.0.1-security",
+		"semver": "",
+		"sequelize": "",
+		"simp": "0.0.1",
+		"sqlite3": "^5.0.2",
+		"string-similarity": "",
+		"totp-generator": ""
+	}
+}
